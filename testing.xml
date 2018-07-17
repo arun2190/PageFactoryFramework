@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "TestSuite" >
+
+<test name="FireFox">
+   <parameter name="browser" value="firefox" />
+   
+  	<classes>
+  		<class name="com.demo.tests.TestLogin" />
+  	</classes>
+  </test>
+ 
+<test name="Chrome">
+  	<parameter name="browser" value="Chrome" />
+ 
+ 	<classes>
+   		<class name="com.demo.tests.TestLogin" />
+  	</classes>
+ </test>
+
+</suite>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[=====Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[Specified Target URL is Loaded]]>
+    </line>
+    <line>
+      <![CDATA[Browser Session Ended]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[Specified Target URL is Loaded]]>
+    </line>
+    <line>
+      <![CDATA[Browser Session Ended]]>
+    </line>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="27297" started-at="2018-06-18T12:50:51Z" finished-at="2018-06-18T12:51:19Z">
+    <groups>
+    </groups>
+    <test name="FireFox" duration-ms="17114" started-at="2018-06-18T12:50:51Z" finished-at="2018-06-18T12:51:08Z">
+      <class name="com.demo.tests.TestLogin">
+        <test-method status="PASS" signature="setupPhase(java.lang.String)[pri:0, instance:com.demo.tests.TestLogin@1629756]" name="setupPhase" is-config="true" duration-ms="10705" started-at="2018-06-18T18:20:51Z" finished-at="2018-06-18T18:21:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[Specified Target URL is Loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPhase -->
+        <test-method status="PASS" signature="test_Home_Page_Appear_Correct()[pri:0, instance:com.demo.tests.TestLogin@1629756]" name="test_Home_Page_Appear_Correct" duration-ms="4113" started-at="2018-06-18T18:21:02Z" description="Login Page Test" finished-at="2018-06-18T18:21:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Home_Page_Appear_Correct -->
+        <test-method status="PASS" signature="tearDownPhase()[pri:0, instance:com.demo.tests.TestLogin@1629756]" name="tearDownPhase" is-config="true" duration-ms="2280" started-at="2018-06-18T18:21:06Z" finished-at="2018-06-18T18:21:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Session Ended]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownPhase -->
+      </class> <!-- com.demo.tests.TestLogin -->
+    </test> <!-- FireFox -->
+    <test name="Chrome" duration-ms="10098" started-at="2018-06-18T12:51:09Z" finished-at="2018-06-18T12:51:19Z">
+      <class name="com.demo.tests.TestLogin">
+        <test-method status="PASS" signature="setupPhase(java.lang.String)[pri:0, instance:com.demo.tests.TestLogin@bd1b6a]" name="setupPhase" is-config="true" duration-ms="7778" started-at="2018-06-18T18:21:09Z" finished-at="2018-06-18T18:21:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[Specified Target URL is Loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPhase -->
+        <test-method status="PASS" signature="test_Home_Page_Appear_Correct()[pri:0, instance:com.demo.tests.TestLogin@bd1b6a]" name="test_Home_Page_Appear_Correct" duration-ms="1664" started-at="2018-06-18T18:21:16Z" description="Login Page Test" finished-at="2018-06-18T18:21:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Home_Page_Appear_Correct -->
+        <test-method status="PASS" signature="tearDownPhase()[pri:0, instance:com.demo.tests.TestLogin@bd1b6a]" name="tearDownPhase" is-config="true" duration-ms="654" started-at="2018-06-18T18:21:18Z" finished-at="2018-06-18T18:21:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Session Ended]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownPhase -->
+      </class> <!-- com.demo.tests.TestLogin -->
+    </test> <!-- Chrome -->
+  </suite> <!-- TestSuite -->
+</testng-results>
